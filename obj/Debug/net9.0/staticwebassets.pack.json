@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\task1.css"
     },
     {
+      "Id": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\wwwroot\\css\\task2.css",
+      "PackagePath": "staticwebassets\\css\\task2.css"
+    },
+    {
       "Id": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -199,6 +203,10 @@
     {
       "Id": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\wwwroot\\lib\\img\\profile.jpg",
+      "PackagePath": "staticwebassets\\lib\\img\\profile.jpg"
     },
     {
       "Id": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

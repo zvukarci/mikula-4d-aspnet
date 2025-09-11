@@ -8,4 +8,9 @@ public class TasksController : Controller
     {
         return View();
     }
+
+    public IActionResult Task2()
+    {
+        return View();
+    }
 }
