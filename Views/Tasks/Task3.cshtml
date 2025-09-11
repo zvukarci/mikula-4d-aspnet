@@ -1,0 +1,23 @@
+<head>
+    <title>@ViewData["Title"] - a</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/task1.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/task2.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/task3.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/a.styles.css" asp-append-version="true" />
+</head>
+
+@{
+    ViewData["Title"] = "Task 3";
+}
+
+<div class="profiles-container">
+    @for (int i = 0; i < 6; i++)
+    {
+        <div class="text-center">
+            <img class="profile-image" src="~/lib/img/profile.jpg" alt="Profile Image" />
+            <h1>Kylian Mbappé</h1>
+            <p>Football Player</p>
+        </div>
+    }
+</div>

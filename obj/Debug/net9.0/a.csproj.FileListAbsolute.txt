@@ -97,4 +97,5 @@ C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\a.pdb
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\a.genruntimeconfig.cache
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\ref\a.dll
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\e4ijuf501p-ct85ta972t.gz
-C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\uy9kdlbwow-cspyb2bolb.gz
+C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\uy9kdlbwow-75f6nwkj1c.gz
+C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\oqlwv2xv3u-ib39c5nb6k.gz
