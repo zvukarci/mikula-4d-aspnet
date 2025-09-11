@@ -1,0 +1,24 @@
+@model List<a.Models.UserInfo>
+
+<head>
+    <title>@ViewData["Title"] - a</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/task1.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/task2.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/task3.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/task5.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/a.styles.css" asp-append-version="true" />
+</head>
+
+@{
+    ViewData["Title"] = "Task 5";
+}
+
+<div class="task-container">
+    <div class="profiles-container">
+        @foreach (var user in Model)
+        {
+            <partial name="_UserProfile" model="user" />
+        }
+    </div>
+</div>

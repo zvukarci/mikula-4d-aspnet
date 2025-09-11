@@ -100,3 +100,4 @@ C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\e4i
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\uy9kdlbwow-75f6nwkj1c.gz
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\oqlwv2xv3u-ib39c5nb6k.gz
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\l8yije0chk-ptn7kffxda.gz
+C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\5r5nfm9ey8-8099d2xm5f.gz
