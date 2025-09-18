@@ -16,3 +16,17 @@ clickButton.addEventListener("click", () => {
         container.classList.add("background-changed");
     }
 });
+
+// task8
+const textarea = document.getElementById("textarea");
+const charCount = document.getElementById("pocet-znakov");
+charCount.innerHTML = textarea.value.length;
+
+textarea.addEventListener("input", () => {
+    charCount.innerHTML = textarea.value.length;
+    if (textarea.value.length > 20) {
+        textarea.classList.add("good");
+    } else {
+        textarea.classList.remove("good");
+    }
+});

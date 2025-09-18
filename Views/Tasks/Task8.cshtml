@@ -1,0 +1,17 @@
+@model List<a.Models.UserInfo>
+ 
+<head>
+    <title>@ViewData["Title"] - a</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/task8.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/a.styles.css" asp-append-version="true" />
+</head>
+ 
+@{
+    ViewData["Title"] = "Task 8";
+}
+ 
+<div>
+    <textarea name="" id="textarea"></textarea>
+    <p>Počet znakov: <span id="pocet-znakov">0</span></p>
+</div>
