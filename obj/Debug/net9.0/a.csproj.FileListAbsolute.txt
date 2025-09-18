@@ -18,9 +18,7 @@ C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\a.sourcelink.j
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\scopedcss\bundle\a.styles.css
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\scopedcss\projectbundle\a.bundle.scp.css
-C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\swxuj5h3jy-b9sayid5wm.gz
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\j9l3dyambb-61n19gt1b8.gz
-C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\fo1zqeu0vk-xtxxf3hu2r.gz
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\azviqiisti-bqjiyaj88i.gz
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\3pcxbxmvhk-c2jlpeoesf.gz
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\krcek9q1kv-erw9l3u2r3.gz
@@ -101,3 +99,6 @@ C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\uy9
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\oqlwv2xv3u-ib39c5nb6k.gz
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\l8yije0chk-ptn7kffxda.gz
 C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\5r5nfm9ey8-8099d2xm5f.gz
+C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\fo1zqeu0vk-khri88kpy8.gz
+C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\swxuj5h3jy-cc0ck3f50u.gz
+C:\Users\Karol\Documents\GitHub\mikula-4d-aspnet\obj\Debug\net9.0\compressed\d7adnmttx9-ejid8n0e1s.gz

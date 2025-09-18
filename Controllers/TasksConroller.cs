@@ -63,4 +63,9 @@ public class TasksController : Controller
         };
         return View(userInfoList);
     }
+
+        public IActionResult Task6()
+    {
+        return View();
+    }
 }
