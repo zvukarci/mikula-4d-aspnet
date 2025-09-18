@@ -68,4 +68,14 @@ public class TasksController : Controller
     {
         return View();
     }
+    
+        public IActionResult Task7()
+    {
+        return View();
+    }
+
+        public IActionResult Task8()
+    {
+        return View();
+    }
 }

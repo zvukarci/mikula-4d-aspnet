@@ -1,0 +1,15 @@
+<head>
+    <title>@ViewData["Title"] - a</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/a.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/task7.css" asp-append-version="true" />
+</head>
+
+@{
+    ViewData["Title"] = "Task 7";
+}
+
+<div>
+    <p>Number of clicks: <span id="click-count">0</span></p>
+    <button id="click-button" class="btn btn-primary">Click me!</button>
+</div>
