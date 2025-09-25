@@ -6,6 +6,8 @@ namespace a.Controllers;
 
 public class TasksController : Controller
 {
+    private static List<UserInfo> userList { get; set; } = new List<UserInfo>();
+
     public IActionResult Task1()
     {
         return View();
@@ -80,12 +82,13 @@ public class TasksController : Controller
     [HttpPost]
     public IActionResult Task9Form(UserInfo user)
     {
-        return RedirectToAction("Task9Detail", user);
+        userList.Add(user);
+        return RedirectToAction("Task9Detail");
     }
 
-    [HttpGet]
-    public IActionResult Task9Detail(UserInfo user)
+    // [HttpGet]
+    public IActionResult Task9Detail() //UserInfo user
     {
-        return View(user);
+        return View(userList);
     }
 }
