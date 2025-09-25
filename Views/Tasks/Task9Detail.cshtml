@@ -1,0 +1,37 @@
+@model a.Models.UserInfo
+ 
+<head>
+    <title>@ViewData["Title"] - a</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/task9.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/a.styles.css" asp-append-version="true" />
+</head>
+ 
+@{
+    ViewData["Title"] = "Task 9 Detail";
+}
+
+<div class="user-details-container">
+    <div class="user-details-card">
+        <h2>User Details</h2>
+        <div class="user-info">
+            <div class="info-row">
+                <label>Name:</label>
+                <span>@Model.Name</span>
+            </div>
+            <div class="info-row">
+                <label>Surname:</label>
+                <span>@Model.Surname</span>
+            </div>
+            <div class="info-row">
+                <label>Email:</label>
+                <span>@Model.Email</span>
+            </div>
+            <div class="info-row">
+                <label>Age:</label>
+                <span>@Model.Age</span>
+            </div>
+        </div>
+    </div>
+</div>
+

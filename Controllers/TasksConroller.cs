@@ -28,16 +28,12 @@ public class TasksController : Controller
             new UserInfo
             {
                 Name = "Kylian Mbappé",
-                Email = "k.mbappe@example.com",
-                Mobile = "+33 6 12 34 56 78",
-                Username = "k.mbappe"
+                Email = "k.mbappe@example.com"
             },
             new UserInfo
             {
                 Name = "Cristiano Ronaldo",
-                Email = "c.ronaldo@example.com",
-                Mobile = "+33 6 12 34 56 80",
-                Username = "c.ronaldo"
+                Email = "c.ronaldo@example.com"
             }
         };
         return View(userInfoList);
@@ -49,16 +45,12 @@ public class TasksController : Controller
             new UserInfo
             {
                 Name = "Kylian Mbappé",
-                Email = "k.mbappe@example.com",
-                Mobile = "+33 6 12 34 56 78",
-                Username = "k.mbappe"
+                Email = "k.mbappe@example.com"
             },
             new UserInfo
             {
                 Name = "Cristiano Ronaldo",
-                Email = "c.ronaldo@example.com",
-                Mobile = "+33 6 12 34 56 80",
-                Username = "c.ronaldo"
+                Email = "c.ronaldo@example.com"
             },
         };
         return View(userInfoList);
@@ -77,5 +69,23 @@ public class TasksController : Controller
         public IActionResult Task8()
     {
         return View();
+    }
+
+    [HttpGet]
+        public IActionResult Task9Form()
+    {
+        return View(new UserInfo());
+    }
+
+    [HttpPost]
+    public IActionResult Task9Form(UserInfo user)
+    {
+        return RedirectToAction("Task9Detail", user);
+    }
+
+    [HttpGet]
+    public IActionResult Task9Detail(UserInfo user)
+    {
+        return View(user);
     }
 }
