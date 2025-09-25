@@ -6,5 +6,6 @@ namespace a.Models
         public string Surname { get; set; }
         public string Email { get; set; }
         public string Age { get; set; }
+        public string Subjects { get; set; }
     }
 }

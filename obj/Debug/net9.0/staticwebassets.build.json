@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "41FgAMDFLiWprZNw6cz8aunHEQ4MldQm8kfbwl6xlUA=",
+  "Hash": "2RC/b1om9qdB0O0Dt7/Cj7nJqP9rCuAhHt9mHcGcQ9s=",
   "Source": "a",
   "BasePath": "_content/a",
   "Mode": "Default",
@@ -605,12 +605,12 @@
       "OriginalItemSpec": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\obj\\Debug\\net9.0\\compressed\\fo1zqeu0vk-xubikgskla.gz",
+      "Identity": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\obj\\Debug\\net9.0\\compressed\\fo1zqeu0vk-3r8b2a0bt1.gz",
       "SourceId": "a",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/a",
-      "RelativePath": "js/site#[.{fingerprint=xubikgskla}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=3r8b2a0bt1}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -619,8 +619,8 @@
       "RelatedAsset": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wsziy56nz6",
-      "Integrity": "QMSIUO+An/uEafevnDMsd7hepNsg5UlmFYgnSTY6n98=",
+      "Fingerprint": "mopwewz8o6",
+      "Integrity": "Bsgj5ykAf7hx+VhzL3WM3gHt5/MukjKwnsB/+LQzzno=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\wwwroot\\js\\site.js"
@@ -1837,8 +1837,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xubikgskla",
-      "Integrity": "d184NyHKpJn/ox++LnszxfoVISXE/y0YvxDfLKltgpI=",
+      "Fingerprint": "3r8b2a0bt1",
+      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -7001,13 +7001,13 @@
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\obj\\Debug\\net9.0\\compressed\\fo1zqeu0vk-xubikgskla.gz",
+      "Route": "js/site.3r8b2a0bt1.js",
+      "AssetFile": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\obj\\Debug\\net9.0\\compressed\\fo1zqeu0vk-3r8b2a0bt1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002512562814"
+          "Quality": "0.041666666667"
         }
       ],
       "ResponseHeaders": [
@@ -7017,19 +7017,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "397"
+          "Value": "23"
         },
         {
           "Name": "ETag",
-          "Value": "\"QMSIUO+An/uEafevnDMsd7hepNsg5UlmFYgnSTY6n98=\""
+          "Value": "\"Bsgj5ykAf7hx+VhzL3WM3gHt5/MukjKwnsB/+LQzzno=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 18 Sep 2025 06:30:55 GMT"
+          "Value": "Thu, 25 Sep 2025 12:37:20 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -7045,18 +7045,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"d184NyHKpJn/ox++LnszxfoVISXE/y0YvxDfLKltgpI=\""
+          "Value": "W/\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-d184NyHKpJn/ox++LnszxfoVISXE/y0YvxDfLKltgpI="
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
         }
       ]
     },
     {
-      "Route": "js/site.js",
+      "Route": "js/site.3r8b2a0bt1.js",
       "AssetFile": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7066,7 +7074,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "953"
+          "Value": "3"
         },
         {
           "Name": "Content-Type",
@@ -7074,121 +7082,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"d184NyHKpJn/ox++LnszxfoVISXE/y0YvxDfLKltgpI=\""
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 18 Sep 2025 06:30:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-d184NyHKpJn/ox++LnszxfoVISXE/y0YvxDfLKltgpI="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js.gz",
-      "AssetFile": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\obj\\Debug\\net9.0\\compressed\\fo1zqeu0vk-xubikgskla.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "397"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QMSIUO+An/uEafevnDMsd7hepNsg5UlmFYgnSTY6n98=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 18 Sep 2025 06:30:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QMSIUO+An/uEafevnDMsd7hepNsg5UlmFYgnSTY6n98="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xubikgskla.js",
-      "AssetFile": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\obj\\Debug\\net9.0\\compressed\\fo1zqeu0vk-xubikgskla.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002512562814"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "397"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QMSIUO+An/uEafevnDMsd7hepNsg5UlmFYgnSTY6n98=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 18 Sep 2025 06:30:55 GMT"
+          "Value": "Thu, 25 Sep 2025 12:37:20 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"d184NyHKpJn/ox++LnszxfoVISXE/y0YvxDfLKltgpI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xubikgskla"
+          "Value": "3r8b2a0bt1"
         },
         {
           "Name": "label",
@@ -7196,13 +7104,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-d184NyHKpJn/ox++LnszxfoVISXE/y0YvxDfLKltgpI="
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
         }
       ]
     },
     {
-      "Route": "js/site.xubikgskla.js",
-      "AssetFile": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\wwwroot\\js\\site.js",
+      "Route": "js/site.3r8b2a0bt1.js.gz",
+      "AssetFile": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\obj\\Debug\\net9.0\\compressed\\fo1zqeu0vk-3r8b2a0bt1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7211,7 +7119,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "953"
+          "Value": "23"
         },
         {
           "Name": "Content-Type",
@@ -7219,56 +7127,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"d184NyHKpJn/ox++LnszxfoVISXE/y0YvxDfLKltgpI=\""
+          "Value": "\"Bsgj5ykAf7hx+VhzL3WM3gHt5/MukjKwnsB/+LQzzno=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 18 Sep 2025 06:30:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xubikgskla"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-d184NyHKpJn/ox++LnszxfoVISXE/y0YvxDfLKltgpI="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xubikgskla.js.gz",
-      "AssetFile": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\obj\\Debug\\net9.0\\compressed\\fo1zqeu0vk-xubikgskla.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "397"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QMSIUO+An/uEafevnDMsd7hepNsg5UlmFYgnSTY6n98=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 18 Sep 2025 06:30:55 GMT"
+          "Value": "Thu, 25 Sep 2025 12:37:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7286,7 +7149,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xubikgskla"
+          "Value": "3r8b2a0bt1"
         },
         {
           "Name": "label",
@@ -7294,7 +7157,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QMSIUO+An/uEafevnDMsd7hepNsg5UlmFYgnSTY6n98="
+          "Value": "sha256-Bsgj5ykAf7hx+VhzL3WM3gHt5/MukjKwnsB/+LQzzno="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\obj\\Debug\\net9.0\\compressed\\fo1zqeu0vk-3r8b2a0bt1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.041666666667"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bsgj5ykAf7hx+VhzL3WM3gHt5/MukjKwnsB/+LQzzno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 12:37:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 12:37:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "C:\\Users\\Karol\\Documents\\GitHub\\mikula-4d-aspnet\\obj\\Debug\\net9.0\\compressed\\fo1zqeu0vk-3r8b2a0bt1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bsgj5ykAf7hx+VhzL3WM3gHt5/MukjKwnsB/+LQzzno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 12:37:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bsgj5ykAf7hx+VhzL3WM3gHt5/MukjKwnsB/+LQzzno="
         }
       ]
     },

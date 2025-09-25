@@ -11,9 +11,9 @@
     ViewData["Title"] = "Task 9 Form";
 }
 
-<div class="container mt-4" aps-controller="Tasks" asp-action="Form">
+<div class="container mt-4">
     <h2>User Information Form</h2>
-    <form method="post">
+    <form method="post" asp-controller="Tasks" asp-action="Task9Form">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" id="name" name="name" required>
@@ -34,6 +34,24 @@
             <input type="number" class="form-control" id="age" name="age" min="0" max="150" required>
         </div>
 
+        <div class="mb-3">
+            <label for="subjects" class="form-label">Subjects</label>
+            <input type="text" class="form-control" id="subjectInput">
+        </div>
+        <button type="button" onclick="addSubject()" class="btn btn-secondary">Add Subject</button>
+
+        <input type="hidden" id="subjectList" name="subjects"/>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
+
+<script>
+    const subjectList = document.getElementById("subjectList");
+    const subjectInput = document.getElementById("subjectInput");
+
+    let subjects = [];
+    function addSubject() {
+        subjects.push(subjectList.value);
+        subjectInput.value = "";
+    }
+</script>

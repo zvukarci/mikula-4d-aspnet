@@ -13,3 +13,18 @@
     <p>Number of clicks: <span id="click-count">0</span></p>
     <button id="click-button" class="btn btn-primary">Click me!</button>
 </div>
+
+<script>
+    let clickCount = 0;
+    const clickButton = document.getElementById("click-button");
+    const clickCountDisplay = document.getElementById("click-count");
+    const container = clickButton.parentElement;
+
+    clickButton.addEventListener("click", () => {
+        clickCount++;
+        clickCountDisplay.textContent = clickCount;
+        if (clickCount >= 5) {
+            container.classList.add("background-changed");
+        }
+    });
+</script>
